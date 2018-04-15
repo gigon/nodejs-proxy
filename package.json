@@ -1,0 +1,11 @@
+{
+    "name": "nodejs-proxy",
+    "version": "1.0.0",
+    "license": "MIT",
+    "dependencies": {
+        "connect": "^3.6.6",
+        "fs-extra": "^5.0.0",
+        "http": "0.0.0",
+        "http-proxy-middleware": "^0.18.0"
+    }
+}
