@@ -45,9 +45,9 @@ mkdir proxies
 Now edit proxies/defs.txt as explained above, and:
 
 ```
-docker run -it --rm --name nodejs-proxy -p 4000:4000 -v ./proxies/defs.txt:/home/node/app/proxies/defs.txt gigon/nodejs-proxy:v1.0.0 node app.js
+docker run -it --rm --name nodejs-proxy -p 4000:4000 -v $PWD/proxies/defs.txt:/home/node/app/proxies/defs.txt gigon/nodejs-proxy:v1.0.0 node app.js
 ```
-(On Windows, you may need to give the absolute path to defs.txt, and add a .env file with COMPOSE_CONVERT_WINDOWS_PATHS=1)
+(On Windows, you may need to give a Windows absolute path to defs.txt instead of linux $PWD, and add a .env file with COMPOSE_CONVERT_WINDOWS_PATHS=1)
 
 ## Test (if you leave the original defs.txt file as is)
 
