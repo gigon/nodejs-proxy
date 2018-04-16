@@ -1,6 +1,11 @@
 {
     "name": "nodejs-proxy",
     "version": "1.0.0",
+    "description": "A simple nodejs proxy service",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:gigon/nodejs-proxy.git"
+    },
     "license": "MIT",
     "dependencies": {
         "connect": "^3.6.6",

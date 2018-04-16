@@ -1,0 +1,3 @@
+# each line has prefix that routes to the target
+/applied-maths, https://download.applied-maths.com
+/, https://www.mediacollege.com
